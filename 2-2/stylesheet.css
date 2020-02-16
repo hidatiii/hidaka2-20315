@@ -1,0 +1,411 @@
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    
+    font-family: YuGothic;
+}
+
+.inner{
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heading-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-left h1{
+    width: 130px;
+    margin: 18px 0 19px;
+}
+
+.responsive{
+    display: none;
+}
+
+
+.responsive-3{
+    display: block;
+}
+
+.header-right{
+    font-weight: bold;
+    padding: 15px 35px;
+    background-color: #FFE000;
+    border-radius: 24px;
+    margin: 11px 0;
+    color: #333333;
+    text-decoration: none;
+    box-shadow: 3px 3px 10px #00000029;
+}
+
+.mv{
+    padding: 80px 0 120px;
+}
+
+.mv-inner{
+    display: flex;
+}
+
+.mv-txt-1{
+    font-weight: bold;
+    font-size: 36px;
+    width: 504px;
+    display: inline-block;
+    margin: 144px 16px 32px 0;
+}
+
+.mv-txt-2{
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+
+.mv-img {
+    width: 560px;
+    top: 0px;
+    left: 520px;
+}
+
+.mv-btn-box{
+    display: flex;
+}
+
+.btn a{
+    text-decoration: none;
+    box-shadow: 3px 3px 10px #00000029;
+    font-size: 18px;
+}
+
+.contact a{
+    display: block;
+    background-color: #109954;
+    color: #FFFFFF;
+    padding: 15px 39px;
+    margin-right: 10px;
+    border-radius: 32px;
+}
+
+.request a{
+    display: block;
+    background-color: #FFFFFF;
+    color: #109954;
+    border: solid 2px #109954;
+    padding: 15px 39px ;
+    border-radius: 32px;
+}
+
+.service{
+    padding: 0 0 120px 0;
+}
+
+  .service-ttl{
+    display: flex;
+    position: relative;
+  }
+
+  .service-ttl h2{
+      font-weight: bold;
+      font-size: 36px;
+      width: 158px;
+      margin-bottom: 109px;
+  }
+  
+  .service-ttl .line{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin: 18px 50px 0 209px;
+  }
+  
+  .service-ttl .line2{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin: 18px 0 0 54px;
+  }
+
+  .service-contents img{
+      width: 200px;
+      height: 200px;
+      justify-content: space-between;
+      display: inline-block;
+  }
+  
+  .service-contents {
+      margin-left: 140px;
+      margin-right: 140px;
+      justify-content: space-between;
+      display: flex;
+  }
+
+  .service-contents-txt{
+      display: flex;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 30px;
+  }
+
+  .consulting{
+      margin-left: 138px;
+  }
+
+  .business{
+    margin-left: 158px;
+  }
+
+  .finance{
+    margin-left: 220px;
+  }
+
+ 
+  .about-ttl{
+      display: flex;
+      position: relative;
+  }
+
+  .about-ttl h2{
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 129px;
+      font-size: 36px;
+      font-weight: bold;
+  }
+
+  .about-ttl .line{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin: 0 229px 0 226px;
+  }
+
+  .about-ttl .line-2{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin-right: 225px;
+  }
+
+  .about-box-1{
+    display: flex;
+    margin-top: 100px;
+  }
+
+  .about-txt-1{
+      width: 450px;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-top: 40px;
+      margin-left: 70px;
+  }
+
+  .more-1{
+      display: inline-block;
+  }
+
+  .about-img-1{
+    width: 450px;
+    height: 278px;
+    margin-left: 40px;
+}
+
+  .about-img{
+      box-shadow: 0 11px 20px #00000029;
+  }
+
+  .more-btn a{
+    padding: 15px 55px;
+    border-radius: 24px;
+    background-color: #109954;
+    color: #FFFFFF;
+}
+
+.more-2{
+    display: inline-block;
+    margin-top: 30px;
+    left: 561px;
+}
+
+ .about-img-2{
+     width: 450px;
+     height: 278px;
+     margin: 100px 40px 120px 70px;
+ }
+
+ .about-box-2{
+     display: flex;
+ }
+
+ .about-txt-2 h3{
+     color: #109954;
+     font-size: 32px;
+     font-weight: bold;  
+     margin-top: 130px; 
+ }
+
+ .recruit-txt{
+     width: 450px;
+     height: 97px;
+     line-height: 1.7;
+     font-size: 16px;
+     margin-top: 30px;
+ }
+
+.news a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.news-ttl{
+    display: flex;
+    position: relative;
+}
+
+.news-ttl h2{
+    position: absolute;
+    font-size: 36px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 108px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.news-ttl .line{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin: 0 236px 0 208px;
+  }
+
+  .news-ttl .line-2{
+    width: 200px;
+    height: 4px;
+    background-color:green;
+    margin-right: 225px;
+  }
+
+
+.border-line{
+    border: solid 1px #E8E8E8;
+    width: 1000px;
+    margin-top: 101px;
+}
+
+
+.news-box{
+    display: flex;
+}
+
+.news-box img{
+    width: 300px;
+    height: 168px;
+    margin-right: 34px;
+    margin-top: 18px;
+}
+
+
+time{
+    font-weight: bold;
+    font-size: 16px;
+    width: 103px;
+    margin-right: 28px;
+    margin-top: 36px;
+}
+
+.category{
+    font-weight: bold;
+    width: 101px;
+    height: 26px;
+    font-size: 14px;
+    background-color: #FFFFFF;
+    border-radius: 13px;
+    border: solid 2px #109954;
+    margin-top: 31px;
+    color: #109954;
+    line-height: 26px;
+    text-align: center;
+    display: inline-block;
+}
+
+.news-thema{
+    font-weight: bold;
+    width: 505px;
+    height: 16px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.news-txt{
+    width: 650px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+
+
+.more-3{
+    margin-top: 65px;
+    text-align: center;
+}
+
+.more-3 a{
+    color: #FFFFFF;
+}
+
+
+footer{
+    background-color: #E8E8E8;
+    margin-top: 115px;
+    font-size: 14px;
+    display: flex;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-img img{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.footer-contents{
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.footer-contents a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.border{
+    border: 1px solid #333333;
+    height: 20px;
+    margin: 0 18px 0 18px;
+    display: inline-block;
+}
+small{
+    display: block;
+    margin-bottom: 14px;
+    margin-top: 43px;
+}
+
+
+
